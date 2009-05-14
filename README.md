@@ -1,11 +1,11 @@
-== Erlang Macro Processor (v2) ==
+## Erlang Macro Processor (v2) ##
 
 Put on GitHub by Andreas Stenius.
 
 This is the emp2 written by Philip Robinson.
 See his blog for full details: http://chlorophil.blogspot.com/2007/04/erlang-macro-processor-v2-part-v.html
 
-=== Example usage ===
+### Example usage ###
 
 The macro definition (in it's own module):
 
@@ -32,6 +32,6 @@ Then you may use it from other modules:
 	        example_macro:lookup_binary(4),
 	    Value.
 	
-==== Erlang Macro Processor (v1) ====
+#### Erlang Macro Processor (v1) ####
 
 Is also supported (see http://chlorophil.blogspot.com/2007/04/erlang-macro-processor-v1-part-i.html).
