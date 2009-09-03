@@ -28,10 +28,17 @@ Then you may use it from other modules:
 	-macro_modules([example_macro]).
 	
 	lookup(Offset) ->
-	    <<_:offset/binary,value:8/integer,_/binary>> =
+	    <<_:Offset/binary,Value:8/integer,_/binary>> =
 	        example_macro:lookup_binary(4),
 	    Value.
-	
+
+Example output:
+
+	1> [example:lookup(N) || N <- lists:seq(0, 3)].
+	[0,2,4,6]
+	2>
+
+
 #### Erlang Macro Processor (v1) ####
 
 Is also supported (see http://chlorophil.blogspot.com/2007/04/erlang-macro-processor-v1-part-i.html).
