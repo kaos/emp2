@@ -1,0 +1,11 @@
+{application, emp2, [
+    {description, "Erlang Macro Processor (v2)"},
+    {vsn, "0.1.0"},
+    {modules, []},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
