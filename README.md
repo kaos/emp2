@@ -5,6 +5,18 @@ Put on GitHub by Andreas Stenius.
 This is the emp2 written by Philip Robinson.
 See his blog for full details: http://chlorophil.blogspot.com/2007/04/erlang-macro-processor-v2-part-v.html
 
+## License ##
+
+This is the license as stated on Mr. Robinsons blog site:
+
+    Unless otherwise noted, all code appearing on this blog is released into the public domain and provided "as-is", 
+    without any warranty of any kind, express or implied, including but not limited to the warranties of merchantability, 
+    fitness for a particular purpose and noninfringement. 
+    
+    In no event shall the author(s) be liable for any claim, damages, or other liability, 
+    whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software 
+    or the use or other dealings in the software.
+
 ### Example usage ###
 
 The macro definition (in it's own module):
